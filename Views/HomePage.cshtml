@@ -1,0 +1,52 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+<!DOCTYPE HTML>
+
+		
+		<!-- Jumbotron, w title -->
+		<div class="jumbotron text-center jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-1">@Model.Value("pageTitle")</h1>
+				<p>And this is <span class="font-weight-bold">only</span> the beginning.</p>
+			</div>
+		</div>
+
+		<!-- This is where we're going to render our content -->
+		
+		<div class="container">
+
+			<div class="row section">
+				<div class="col-md-12">
+
+				@Model.Value("bodyText")
+
+				</div>				
+			</div>
+
+		</div>
+
+		<!-- Grey Banner -->
+		<div class="container-fluid grey-bg">
+			<div class="container">
+				<div class="row section">
+					<div class="col-md-8">
+						<h2>A flexible CMS - do things your way</h2>
+						<p>The Umbraco source code is free and available for download either as a ZIP file or via NuGet under the MIT license, so you can start crafting websites in Umbraco today. 
+						Need to build a site with multiple 3rd party extensions and customized add-ons? No problem. Need to build a simple site with a straightforward contact form? No problem.</p>
+						<p>Whatever type or scale of your project, Umbraco will be able to handle it - and the cherry on top; with Umbraco’s well-known editor friendly UI, 
+							no matter how complex a site you’re building, you know that your editors will still find it a breeze to edit. Oh, and the cherry on top of the cherry - 
+							there's <span class="font-weight-bold">no need for you to spend time learning a new coding or templating language as Umbraco is based on C#, javaScript and Razor</span>. </p>
+					</div>
+					<div class="col-md-4">
+						<img src="/images/community.png" class="img-fluid" alt="Community illustration">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	
