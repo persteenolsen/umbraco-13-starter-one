@@ -1,5 +1,9 @@
 # umbraco-13-starter-one
 
+Last Updated:
+
+11-05-2025
+
 A Simple Web Application by Umbrco CMS 13
 
 # Create a global json
@@ -37,4 +41,14 @@ hostingModel="inprocess"
 Upload the SQLite DB to the remote server
 
 Start to use Umbraco :-)
+
+# Sync your remote Prod changes to your local Dev
+
+Yor will need to commit the changes from the sqlite-wal file to sqlite.db at the Web Hotel before downloading to local Dev:
+
+- Open web.config and save - This is a work around for stop / start the app pool
+
+- Download the sqlite.db
+
+- Download Views, media files or whatever files that you worked with at Prod
 
