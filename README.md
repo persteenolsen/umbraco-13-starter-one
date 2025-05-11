@@ -4,7 +4,7 @@ Last Updated:
 
 11-05-2025
 
-A Simple Web Application by Umbrco CMS 13
+A Simple Web Application by Umbraco CMS 13 serving as a Basic Starter
 
 # Create a global json
 
