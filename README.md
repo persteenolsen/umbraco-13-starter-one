@@ -2,7 +2,7 @@
 
 Last Updated:
 
-11-05-2025
+13-05-2025
 
 A Simple Web Application by Umbraco CMS 13 serving as a Basic Starter
 
@@ -40,7 +40,19 @@ hostingModel="inprocess"
 
 Upload the SQLite DB to the remote server
 
-Start to use Umbraco :-)
+# Settings for Production
+
+Go to appsettings.json and make sure that your Umbraco Site have at least the settings:
+
+- Hosting:Debug:false
+
+- UseHTTPS:true
+
+- WebRouting:UmbracoApplicationUrl:https://your.domain.com
+
+Note: Check your settings in appsettings.Development.json for
+
+- Hosting:Debug
 
 # Sync your remote Prod changes to your local Dev
 
@@ -51,4 +63,6 @@ Yor will need to commit the changes from the sqlite-wal file to sqlite.db at the
 - Download the sqlite.db
 
 - Download Views, media files or whatever files that you worked with at Prod
+
+Happy use Umbraco :-)
 
