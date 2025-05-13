@@ -48,7 +48,7 @@ Go to appsettings.json and make sure that your Umbraco Site have at least the se
 
 - UseHTTPS:true
 
-- WebRouting:UmbracoApplicationUrl:https://your.domain.com
+- WebRouting:UmbracoApplicationUrl:your.domain.com
 
 Note: Check your settings in appsettings.Development.json for
 
