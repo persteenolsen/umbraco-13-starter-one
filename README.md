@@ -2,7 +2,7 @@
 
 Last Updated:
 
-13-05-2025
+14-05-2025
 
 A Simple Web Application by Umbraco CMS 13 serving as a Basic Starter
 
@@ -42,7 +42,17 @@ Upload the SQLite DB to the remote server
 
 # Settings for Production
 
-Go to appsettings.json and make sure that your Umbraco Site have at least the settings:
+Login to your Umbraco and perform a Health Check under Settings
+
+Take a look in file Program.cs and the code about security by the HTTP Headers:
+
+- Click-Jacking Protection
+
+- Content / MIME Sniffing Protection
+
+- Cookie hijacking and protocol downgrade attacks Protection
+
+Go to appsettings.json and make sure that your Umbraco Site have the settings:
 
 - Hosting:Debug:false
 
