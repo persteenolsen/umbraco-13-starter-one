@@ -48,16 +48,11 @@ Open your web.config file at your Web hotel and be aware of the Excessive Header
 
 - Could be revealing information in its headers that gives away unnecessary details about the technology used to build and host
 
-- Add the below code to web.config
+- Add code to web.config which contains:
 
- <httpProtocol>
-      <customHeaders>
-        <remove name="X-Powered-By" />
-      </customHeaders>
-    </httpProtocol>
-    <security>
-      <requestFiltering removeServerHeader="true" />
-</security>
+- httpProtocol - customHeaders - remove - name=X-Powered-By
+
+- security - requestFiltering - RemoveServerHeader=true
 
 Take a look in file Program.cs and the code about security by the HTTP Headers:
 
