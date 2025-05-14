@@ -29,7 +29,7 @@ app.Use(async (context, next) =>
 });
 
 // Note: Added to make the Umbraco Site more secure
-// Protects for Cookie hijacking and protocol downgrade attacks Protection
+// Protects for Cookie hijacking and protocol downgrade attacks
 // Strict-Transport-Security Header (HSTS) is only used for Production when using HTTPS
 if (builder.Environment.IsDevelopment())
 {
