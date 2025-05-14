@@ -44,6 +44,21 @@ Upload the SQLite DB to the remote server
 
 Login to your Umbraco and perform a Health Check under Settings
 
+Open your web.config file at your Web hotel and be aware of the Excessive Headers that:
+
+- Could be revealing information in its headers that gives away unnecessary details about the technology used to build and host it - ASP.NET and Server - Kestrel
+
+- Add the below code to web.config
+
+ <httpProtocol>
+      <customHeaders>
+        <remove name="X-Powered-By" />
+      </customHeaders>
+    </httpProtocol>
+    <security>
+      <requestFiltering removeServerHeader="true" />
+</security>
+
 Take a look in file Program.cs and the code about security by the HTTP Headers:
 
 - Click-Jacking Protection
