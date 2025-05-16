@@ -2,13 +2,25 @@
 
 Last Updated:
 
-14-05-2025
+16-05-2025
 
 A Simple Web Application by Umbraco CMS 13 serving as a Basic Starter
 
 # Create a global json
 
 dotnet new globaljson --sdk-version 8.0.203 --force
+
+# Installation
+
+- dotnet new install Umbraco.Templates::13.*
+
+- dotnet new umbraco --name MyProject
+
+- cd MyProject
+
+- dotnet run
+
+- Open https : // localhost:44316 in your Browser and follow the instructions
 
 # Functionality of the Web App
 
