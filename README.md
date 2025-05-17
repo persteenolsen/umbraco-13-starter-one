@@ -86,11 +86,11 @@ Note: Check your settings in appsettings.Development.json for
 
 - Hosting:Debug
 
-# Performance tuning / Eliminate Render-Blocking => Slow first Page load
+# Performance => Slow first Page load => Eliminate Render-Blocking
 
-- Use Google Pege Speed
+- Used Google Page Speed
 
-- I optimized CSS and JS in the Master View 
+- I optimized the loading CSS and JS in the Master View
 
 - In web.config I added Rewrite Rule to force HTTP request to HTTPS 
 
