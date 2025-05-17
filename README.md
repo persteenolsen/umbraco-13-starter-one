@@ -86,6 +86,14 @@ Note: Check your settings in appsettings.Development.json for
 
 - Hosting:Debug
 
+# Performance tuning / Eliminate Render-Blocking => Slow first Page load
+
+- Use Google Pege Speed
+
+- I optimized CSS and JS in the Master View 
+
+- In web.config I added Rewrite Rule to force HTTP request to HTTPS 
+
 # Sync your remote Prod changes to your local Dev
 
 Yor will need to commit the changes from the sqlite-wal file to sqlite.db at the Web Hotel before downloading to local Dev:
