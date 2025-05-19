@@ -2,7 +2,7 @@
 
 Last Updated:
 
-17-05-2025
+19-05-2025
 
 A Simple Web Application by Umbraco CMS 13 serving as a Basic Starter
 
@@ -92,7 +92,13 @@ Note: Check your settings in appsettings.Development.json for
 
 - I optimized the loading CSS and JS in the Master View
 
-- In web.config I added Rewrite Rule to force HTTP request to HTTPS 
+- In web.config I added Rewrite Rule to force HTTP request to HTTPS
+
+# Custom Error Pages
+
+- 404 Error Page by web.config and Umbraco
+
+- 500 Error Page by web.config and 500.html
 
 # Sync your remote Prod changes to your local Dev
 
