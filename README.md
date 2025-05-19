@@ -100,6 +100,8 @@ Note: Check your settings in appsettings.Development.json for
 
 - 500 Error Page by web.config and 500.html
 
+- 503 Error Page by web.config and 503.html
+
 # Sync your remote Prod changes to your local Dev
 
 Yor will need to commit the changes from the sqlite-wal file to sqlite.db at the Web Hotel before downloading to local Dev:
