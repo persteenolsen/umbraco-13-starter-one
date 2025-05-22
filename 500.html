@@ -24,9 +24,10 @@
 
     <script>
       function redirect () {
-         setTimeout(myURL, 5000);
-         var result = document.getElementById("result");
-         result.innerHTML = "Dont worry, the page will try to load in 5 seconds ...";
+         setTimeout(myURL, 3000);
+         
+         //var result = document.getElementById("result");
+         //result.innerHTML = "Dont worry, the page will try to load in 3 seconds ...";
       }
 
       function myURL() {
@@ -67,7 +68,7 @@
  <!-- Jumbotron, w title -->
  <div class="jumbotron text-center jumbotron-fluid">
        <div class="container">
-          <h1 class="display-1">Ups, Error 500 !</h1>
+          <h1 class="display-1">Loading ...</h1>
        </div>
  </div>
 
@@ -77,10 +78,10 @@
       
         <br />
                  
-         <p id = "result"></p>
+         <!--<p id = "result"></p>-->
 
          <p><a href="https://umb.persteenolsen.com" target="_top">
-          Just try again if you are not redirected ...</a></p>
+          Just try again if the page did not load ...</a></p>
 
         <br />
        
