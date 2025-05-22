@@ -96,7 +96,7 @@ Note: Check your settings in appsettings.Development.json for
 
 - In web.config I added Rewrite Rule to force HTTP request to HTTPS
 
-- In web.config I added applicationInitialization to prevent cold start
+- In web.config I added applicationInitialization to prevent cold start ( IIS seems to igore it! )
 
 - As a workaround I set up a crone job to make a request every few minutes to prevent cold start
 
