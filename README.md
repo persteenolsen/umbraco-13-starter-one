@@ -98,7 +98,7 @@ Note: Check your settings in appsettings.Development.json for
 
 - In web.config I added applicationInitialization to prevent cold start
 
-- As a workaround I set up a crone job to make a request every 5 minutes to prevent cold start
+- As a workaround I set up a crone job to make a request every few minutes to prevent cold start
 
 # Custom Error Pages
 
@@ -118,5 +118,5 @@ Yor will need to commit the changes from the sqlite-wal file to sqlite.db at the
 
 - Download Views, media files or whatever files that you worked with at Prod
 
-Happy use Umbraco :-)
+Happy use of Umbraco :-)
 
