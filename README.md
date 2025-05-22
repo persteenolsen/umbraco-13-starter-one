@@ -86,9 +86,11 @@ Note: Check your settings in appsettings.Development.json for
 
 - Hosting:Debug
 
-# Performance => Slow first Page load => Eliminate Render-Blocking
+# Performance => Slow first Page load
 
 - Used Google Page Speed
+
+- Eliminate Render-Blocking
 
 - I optimized the loading CSS and JS in the Master View
 
