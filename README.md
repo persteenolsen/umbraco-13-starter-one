@@ -90,7 +90,7 @@ Note: Check your settings in appsettings.Development.json for
 
 - Used Google Page Speed
 
-- Eliminate Render-Blocking
+- Eliminated Render-Blocking
 
 - I optimized the loading CSS and JS in the Master View
 
