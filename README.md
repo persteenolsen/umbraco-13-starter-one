@@ -94,6 +94,10 @@ Note: Check your settings in appsettings.Development.json for
 
 - In web.config I added Rewrite Rule to force HTTP request to HTTPS
 
+- In web.config I added applicationInitialization to prevent cold start
+
+- As a workaround I set up a crone job to make a request every 5 minutes to prevent cold start
+
 # Custom Error Pages
 
 - 404 Error Page by web.config and Umbraco
