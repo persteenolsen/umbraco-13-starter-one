@@ -2,7 +2,7 @@
 
 Last Updated:
 
-22-05-2025
+23-05-2025
 
 A Simple Web Application by Umbraco CMS 13 serving as a Basic Starter
 
