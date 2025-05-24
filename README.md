@@ -4,7 +4,7 @@ Last Updated:
 
 24-05-2025
 
-A Simple Web Application by Umbraco CMS 13 serving as a Basic Starter
+A Website by Umbraco CMS 13 serving as a Basic Starter
 
 # Create a global json
 
@@ -22,11 +22,11 @@ dotnet new globaljson --sdk-version 8.0.203 --force
 
 - Open https : // localhost:44316 in your Browser and follow the instructions
 
-# Functionality of the Web App
+# Functionality of the Website
 
-- Simple web Application with an Umbraco Backend
+- Simple Website with an Umbraco Backend
 
-# Tech used for creating the Web App
+# Tech used for creating the Website
 
 - .NET 8
 - Umbraco CMS 13
@@ -50,7 +50,7 @@ At my remote servers the web.config needs to be without the folowing:
 
 hostingModel="inprocess"
 
-Upload the SQLite DB to the remote server
+Upload the SQLite DB to umbraco/Data at the remote server
 
 # Settings for Production
 
