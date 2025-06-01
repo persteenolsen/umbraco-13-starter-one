@@ -2,9 +2,9 @@
 
 Last Updated:
 
-30-05-2025
+01-06-2025
 
-A Website by Umbraco CMS 13 serving as a Basic Starter
+A Website by Umbraco CMS 13 serving as a Starter
 
 # Create a global json
 
