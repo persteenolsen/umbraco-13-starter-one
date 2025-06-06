@@ -2,7 +2,7 @@
 
 Last Updated:
 
-01-06-2025
+06-06-2025
 
 A Website by Umbraco CMS 13 serving as a Starter
 
