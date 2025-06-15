@@ -118,5 +118,25 @@ Yor will need to commit the changes from the sqlite-wal file to sqlite.db at the
 
 - Download Views, media files or whatever files that you worked with at Prod
 
+# Models Builder - Configuration - Tips and Tricks
+
+Be sure that the Models for the Document Types are available and Recognized in VS Code:
+
+- Take a look at the settings for ModelsBuilder in appsetting.Development
+
+- Make sure to create the folder: umbraco / models to match the "ModelsDirectory": "~/umbraco/models"
+
+- Make sure you have the setting: "ModelsMode": "SourceCodeManual" for generate the .cs files
+
+- Make a dotnet build and then dotnet run and open the Admin Section of your site which will work even the site will not work before the models will be generated !!!
+
+- Go to the Models Builder in the Admin Section of your site and click: Regenerate Models
+
+- Take a look in the folder: umbraco / models where the .cs files / models were created by VS Code
+
+- Stop your site and make a dotnet run to see your site is running
+
+- Thats all
+
 Happy use of Umbraco :-)
 
