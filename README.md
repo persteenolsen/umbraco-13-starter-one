@@ -136,7 +136,7 @@ Be sure that the Models for the Document Types are available and Recognized in V
 
 - Stop your site and make a dotnet run to see your site is running
 
-- Thats all
+- Note: It will NOT work in Production - Needed to make another build without the cs.files in umbraco / models - I will try to find a solution for that if Models Builder is needed ...
 
 Happy use of Umbraco :-)
 
