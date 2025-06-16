@@ -32,7 +32,7 @@
       },
       "Content": {
         "Notifications": {
-          "Email": "no-reply-dotnet-signup@persteenolsen.com"
+          "Email": "your-email-from@your-domain.com"
         },
         "AllowEditInvariantFromNonDefault": true,
         "ContentVersionCleanupPolicy": {
