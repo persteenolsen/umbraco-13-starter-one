@@ -457,6 +457,12 @@ $RECYCLE.BIN/
 ## Umbraco CMS
 ##
 
+# Appsettings - SMTP credentials can not be at GitHub
+appsettings.json
+
+# Appsettings Development - SMTP credentials can not be at GitHub
+appsettings.Development.json
+
 # JSON schema files for appsettings.json
 appsettings-schema.json
 appsettings-schema.*.json

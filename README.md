@@ -2,7 +2,7 @@
 
 Last Updated:
 
-15-06-2025
+16-06-2025
 
 A Website by Umbraco CMS 13 serving as a Starter
 
@@ -82,7 +82,9 @@ Go to appsettings.json and make sure that your Umbraco Site have the settings:
 
 - WebRouting:UmbracoApplicationUrl:your.domain.com
 
-Note: Check your settings in appsettings.Development.json for
+- Go to MyProject . csproj and enable the ItemGroup / compile:
+
+Note: Also check your settings in appsettings.Development.json for
 
 - Hosting:Debug
 
