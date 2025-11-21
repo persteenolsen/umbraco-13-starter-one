@@ -27,8 +27,20 @@
       "Hosting": {
         "Debug": false
       },
+
+      "ModelsBuilder": {
+        "ModelsMode": "Nothing"
+      },
+      "Runtime": {
+        "Mode": "Production"
+      },
       "WebRouting": {
         "UmbracoApplicationUrl": "https://umb.persteenolsen.com"
+      },
+      
+      "RuntimeMinification": {
+        "UseInMemoryCache": true,
+        "CacheBuster": "AppDomain"
       },
       "Content": {
         "Notifications": {
